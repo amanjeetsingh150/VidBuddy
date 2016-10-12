@@ -36,7 +36,7 @@ for l in soup1.find_all('a',{'class':'l'}):
 	print li
 	break
 		
-f = file('/Users/bhagatking22/desktop/'+commands+'.mp4', 'w')
+f = file('-----Your path---------'+commands+'.mp4', 'w')
 url = urllib2.urlopen(li)
 print 'Wait, your video is being downloaded'
 blocksize = 8192
